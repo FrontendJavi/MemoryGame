@@ -36,6 +36,7 @@ class Imagescreen : UIViewController {
         
         if Image1 == #imageLiteral(resourceName: "image1") {
             puntuacion = 1
+            
         }
     }
     
