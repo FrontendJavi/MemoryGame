@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    //let x : Int = 42
+    //var myString = String(x)
     
     
     @IBOutlet weak var score: UITextField!
@@ -22,6 +24,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        score.text = String(puntuacion)
     }
 
 

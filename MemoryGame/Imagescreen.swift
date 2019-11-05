@@ -7,6 +7,7 @@
 //
 
 import UIKit
+var puntuacion : Int = 0
 
 class Imagescreen : UIViewController {
     
@@ -31,13 +32,47 @@ class Imagescreen : UIViewController {
     
     //sistema de vida
     func life () {
-        var victory : Bool
-        var puntuacion : Int
         
-        if Image1 == #imageLiteral(resourceName: "image1") {
-            puntuacion = 1
-            
+        
+        
+        if Image1.currentImage == #imageLiteral(resourceName: "image1") {
+            puntuacion = puntuacion + 1
+          
         }
+        
+        if Image2.currentImage == #imageLiteral(resourceName: "image5") {
+            puntuacion = puntuacion + 1
+        }
+        
+        if Image3.currentImage == #imageLiteral(resourceName: "image7") {
+            puntuacion = puntuacion + 1
+        }
+        
+        if Image4.currentImage == #imageLiteral(resourceName: "image4") {
+            puntuacion = puntuacion + 1
+        }
+        
+        if Image5.currentImage == #imageLiteral(resourceName: "image6") {
+            puntuacion = puntuacion + 1
+        }
+        
+        if Image6.currentImage == #imageLiteral(resourceName: "image9") {
+            puntuacion = puntuacion + 1
+        }
+        
+        if Image7.currentImage == #imageLiteral(resourceName: "image3") {
+            puntuacion = puntuacion + 1
+        }
+        
+        if Image8.currentImage == #imageLiteral(resourceName: "image8") {
+            puntuacion = puntuacion + 1
+        }
+        
+        if Image9.currentImage == #imageLiteral(resourceName: "image2") {
+            puntuacion = puntuacion + 1
+        }
+        
+        
     }
     
     
@@ -45,7 +80,8 @@ class Imagescreen : UIViewController {
     
 // Esta función permite regresar a la pantalla de inicio
     @IBAction func backtoStart(_ sender: Any) {
-        
+        life()
+        print(puntuacion)
         dismiss(animated: true, completion: nil)
         
         
@@ -54,7 +90,7 @@ class Imagescreen : UIViewController {
     //Esta función carga las imágenes en la pantalla
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        puntuacion = 0
         Image1.setImage(#imageLiteral(resourceName: "image1"), for: .normal)
         Image2.setImage(#imageLiteral(resourceName: "image5"), for: .normal)
         Image3.setImage(#imageLiteral(resourceName: "image7"), for: .normal)

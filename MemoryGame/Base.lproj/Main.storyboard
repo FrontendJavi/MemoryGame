@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Q7N-86-Fdc">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -22,33 +22,33 @@
                                 <rect key="frame" x="0.0" y="54" width="414" height="420"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bienvenido a Super Memory Game!!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J46-Gh-ClC">
-                                        <rect key="frame" x="52" y="0.0" width="310" height="66"/>
+                                        <rect key="frame" x="52.333333333333371" y="0.0" width="309.66666666666663" height="66"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cómo jugar: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GEw-71-qvW">
-                                        <rect key="frame" x="153" y="71" width="108.5" height="65.5"/>
+                                        <rect key="frame" x="153" y="71" width="108.33333333333331" height="65.666666666666686"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="highlightedColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O1g-RA-1tE">
-                                        <rect key="frame" x="1" y="141.5" width="412" height="66"/>
+                                        <rect key="frame" x="1" y="141.66666666666666" width="412" height="66"/>
                                         <string key="text">El usuario debe recordar una secuencia de imágenes. Después se presentarán todas las imágenes posibles y el jugador deberá elegir la secuencia correcta.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Puntuacion actual:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7t0-0g-Ajm">
-                                        <rect key="frame" x="128.5" y="212.5" width="157.5" height="66"/>
+                                        <rect key="frame" x="128.33333333333331" y="212.66666666666669" width="157.33333333333331" height="65.666666666666686"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <color key="textColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YWa-3b-90t">
-                                        <rect key="frame" x="166.5" y="283.5" width="81" height="65.5"/>
+                                        <rect key="frame" x="166.66666666666663" y="283.33333333333331" width="81" height="66"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="81" id="k09-Jf-d6R"/>
                                         </constraints>
@@ -57,7 +57,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w7q-CJ-aRV">
-                                        <rect key="frame" x="117" y="354" width="180" height="66"/>
+                                        <rect key="frame" x="117" y="354.33333333333331" width="180" height="65.666666666666686"/>
                                         <color key="backgroundColor" red="0.90378397700000002" green="0.43787974120000001" blue="0.055695988240000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="180" id="cRo-BU-1y3"/>
@@ -106,22 +106,22 @@
                                 <rect key="frame" x="30" y="84" width="354" height="400"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="8KU-58-lip">
-                                        <rect key="frame" x="0.0" y="0.0" width="354" height="133.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="354" height="133.33333333333334"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wk2-eG-rKB" userLabel="Button1">
-                                                <rect key="frame" x="0.0" y="0.0" width="118" height="133.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="118" height="133.33333333333334"/>
                                                 <connections>
                                                     <action selector="changeImage:" destination="1PI-DU-1zQ" eventType="touchUpInside" id="rca-as-1gS"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HFe-PJ-ubh" userLabel="Button2">
-                                                <rect key="frame" x="118" y="0.0" width="118" height="133.5"/>
+                                                <rect key="frame" x="118" y="0.0" width="118" height="133.33333333333334"/>
                                                 <connections>
                                                     <action selector="changeImage2:" destination="1PI-DU-1zQ" eventType="touchUpInside" id="9Ce-95-uDg"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nAO-dr-bnO" userLabel="Button3">
-                                                <rect key="frame" x="236" y="0.0" width="118" height="133.5"/>
+                                                <rect key="frame" x="236" y="0.0" width="118" height="133.33333333333334"/>
                                                 <connections>
                                                     <action selector="changeImage3:" destination="1PI-DU-1zQ" eventType="touchUpInside" id="Wqo-bc-3AY"/>
                                                 </connections>
@@ -130,22 +130,22 @@
                                         <viewLayoutGuide key="safeArea" id="e5w-sJ-3nt"/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="NyC-2V-mXg">
-                                        <rect key="frame" x="0.0" y="133.5" width="354" height="133"/>
+                                        <rect key="frame" x="0.0" y="133.33333333333331" width="354" height="133.33333333333331"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vPm-Yh-41v" userLabel="Button4">
-                                                <rect key="frame" x="0.0" y="0.0" width="118" height="133"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="118" height="133.33333333333334"/>
                                                 <connections>
                                                     <action selector="changeImage4:" destination="1PI-DU-1zQ" eventType="touchUpInside" id="koA-Sh-jNz"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uvi-QN-BGU" userLabel="Button5">
-                                                <rect key="frame" x="118" y="0.0" width="118" height="133"/>
+                                                <rect key="frame" x="118" y="0.0" width="118" height="133.33333333333334"/>
                                                 <connections>
                                                     <action selector="changeImage5:" destination="1PI-DU-1zQ" eventType="touchUpInside" id="Iwe-lq-31z"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8it-0W-v5q" userLabel="Button6">
-                                                <rect key="frame" x="236" y="0.0" width="118" height="133"/>
+                                                <rect key="frame" x="236" y="0.0" width="118" height="133.33333333333334"/>
                                                 <connections>
                                                     <action selector="changeImage6:" destination="1PI-DU-1zQ" eventType="touchUpInside" id="GVg-1a-8mD"/>
                                                 </connections>
@@ -154,22 +154,22 @@
                                         <viewLayoutGuide key="safeArea" id="10v-dP-GKv"/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="aei-7L-UeE">
-                                        <rect key="frame" x="0.0" y="266.5" width="354" height="133.5"/>
+                                        <rect key="frame" x="0.0" y="266.66666666666669" width="354" height="133.33333333333331"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yOX-7t-TFy" userLabel="Button7">
-                                                <rect key="frame" x="0.0" y="0.0" width="118" height="133.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="118" height="133.33333333333334"/>
                                                 <connections>
                                                     <action selector="changeImage7:" destination="1PI-DU-1zQ" eventType="touchUpInside" id="vde-YL-6SM"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xpL-41-rv9" userLabel="Button8">
-                                                <rect key="frame" x="118" y="0.0" width="118" height="133.5"/>
+                                                <rect key="frame" x="118" y="0.0" width="118" height="133.33333333333334"/>
                                                 <connections>
                                                     <action selector="changeImage8:" destination="1PI-DU-1zQ" eventType="touchUpInside" id="Rrk-hJ-Pgl"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OkC-2d-8mm" userLabel="Button9">
-                                                <rect key="frame" x="236" y="0.0" width="118" height="133.5"/>
+                                                <rect key="frame" x="236" y="0.0" width="118" height="133.33333333333334"/>
                                                 <connections>
                                                     <action selector="changeImage9:" destination="1PI-DU-1zQ" eventType="touchUpInside" id="Bcq-xg-XCd"/>
                                                 </connections>
