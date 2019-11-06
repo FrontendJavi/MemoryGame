@@ -91,28 +91,29 @@ class Imagescreen : UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         puntuacion = 0
-        Image1.setImage(#imageLiteral(resourceName: "image1"), for: .normal)
-        Image2.setImage(#imageLiteral(resourceName: "image5"), for: .normal)
-        Image3.setImage(#imageLiteral(resourceName: "image7"), for: .normal)
-        Image4.setImage(#imageLiteral(resourceName: "image4"), for: .normal)
-        Image5.setImage(#imageLiteral(resourceName: "image6"), for: .normal)
-        Image6.setImage(#imageLiteral(resourceName: "image9"), for: .normal)
-        Image7.setImage(#imageLiteral(resourceName: "image3"), for: .normal)
-        Image8.setImage(#imageLiteral(resourceName: "image8"), for: .normal)
-        Image9.setImage(#imageLiteral(resourceName: "image2"), for: .normal)
+        self.randomImages()
+        Image1.setImage(self.shuffled[0], for: .normal)
+        Image2.setImage(self.shuffled[1], for: .normal)
+        Image3.setImage(self.shuffled[2], for: .normal)
+        Image4.setImage(self.shuffled[3], for: .normal)
+        Image5.setImage(self.shuffled[4], for: .normal)
+        Image6.setImage(self.shuffled[5], for: .normal)
+        Image7.setImage(self.shuffled[6], for: .normal)
+        Image8.setImage(self.shuffled[7], for: .normal)
+        Image9.setImage(self.shuffled[8], for: .normal)
         
         
         Timer.scheduledTimer(withTimeInterval: 2, repeats: false) { (t) in
             self.randomImages()
-            self.Image1.setImage(UIImage(named: "image4"), for: .normal)
-            self.Image2.setImage(UIImage(named: "image9"), for: .normal)
-            self.Image3.setImage(UIImage(named: "image6"), for: .normal)
-            self.Image4.setImage(UIImage(named: "image1"), for: .normal)
-            self.Image5.setImage(UIImage(named: "image3"), for: .normal)
-            self.Image6.setImage(UIImage(named: "image5"), for: .normal)
-            self.Image7.setImage(UIImage(named: "image2"), for: .normal)
-            self.Image8.setImage(UIImage(named: "image7"), for: .normal)
-            self.Image9.setImage(UIImage(named: "image8"), for: .normal)
+            self.Image1.setImage(self.shuffled[0], for: .normal)
+            self.Image2.setImage(self.shuffled[1], for: .normal)
+            self.Image3.setImage(self.shuffled[2], for: .normal)
+            self.Image4.setImage(self.shuffled[3], for: .normal)
+            self.Image5.setImage(self.shuffled[4], for: .normal)
+            self.Image6.setImage(self.shuffled[5], for: .normal)
+            self.Image7.setImage(self.shuffled[6], for: .normal)
+            self.Image8.setImage(self.shuffled[7], for: .normal)
+            self.Image9.setImage(self.shuffled[8], for: .normal)
             
         }
      
@@ -140,125 +141,6 @@ class Imagescreen : UIViewController {
     }
     
     
-    @IBAction func changeImage(_ sender: UIButton) {
-        
-        if Image1.currentImage == #imageLiteral(resourceName: "image4")        {
-            Image1.setImage(#imageLiteral(resourceName: "image6"), for: .normal)
-        }
-            
-        else
-        {
-            Image1.setImage(#imageLiteral(resourceName: "image1"), for: .normal)
-        }
-        
-       
-    }
-    
-    
-    @IBAction func changeImage2(_ sender: UIButton) {
-        
-        if Image2.currentImage == #imageLiteral(resourceName: "image9") {
-            Image2.setImage(#imageLiteral(resourceName: "image3"), for: .normal)
-        }
-        
-        else
-        {
-            Image2.setImage(#imageLiteral(resourceName: "image5"), for: .normal)
-        }
-        
-    }
-    
-    @IBAction func changeImage3(_ sender: UIButton) {
-        
-        if Image3.currentImage == #imageLiteral(resourceName: "image6") {
-            Image3.setImage(#imageLiteral(resourceName: "image8"), for: .normal)
-        }
-        
-        else
-        {
-            Image3.setImage(#imageLiteral(resourceName: "image7"), for: .normal)
-        }
-        
-    }
-    
-    @IBAction func changeImage4(_ sender: UIButton) {
-        
-        if Image4.currentImage == #imageLiteral(resourceName: "image1") {
-            Image4.setImage(#imageLiteral(resourceName: "image2"), for: .normal)
-        }
-        
-        else
-        {
-          Image4.setImage(#imageLiteral(resourceName: "image4"), for: .normal)
-        }
-        
-    }
-    
-    
-    @IBAction func changeImage5(_ sender: UIButton) {
-        
-        if Image5.currentImage == #imageLiteral(resourceName: "image3") {
-            Image5.setImage(#imageLiteral(resourceName: "image5"), for: .normal)
-        }
-        
-        else
-        {
-            Image5.setImage(#imageLiteral(resourceName: "image6"), for: .normal)
-        }
-    }
-    
-    @IBAction func changeImage6(_ sender: UIButton) {
-        
-        if Image6.currentImage == #imageLiteral(resourceName: "image5") {
-            Image6.setImage(#imageLiteral(resourceName: "image1"), for: .normal)
-        }
-        
-        else
-        {
-            Image6.setImage(#imageLiteral(resourceName: "image9"), for: .normal)
-        }
-        
-    }
-    
-    
-    @IBAction func changeImage7(_ sender: UIButton) {
-        
-        if Image7.currentImage == #imageLiteral(resourceName: "image2") {
-            Image7.setImage(#imageLiteral(resourceName: "image7"), for: .normal)
-        }
-        
-        else
-        {
-          Image7.setImage(#imageLiteral(resourceName: "image3"), for: .normal)
-        }
-    }
-    
-    
-    @IBAction func changeImage8(_ sender: UIButton) {
-        
-        if Image8.currentImage == #imageLiteral(resourceName: "image7") {
-            Image8.setImage(#imageLiteral(resourceName: "image9"), for: .normal)
-        }
-        
-        else
-        {
-            Image8.setImage(#imageLiteral(resourceName: "image8"), for: .normal)
-        }
-    }
-    
-    
-    @IBAction func changeImage9(_ sender: UIButton) {
-        
-        if Image9.currentImage == #imageLiteral(resourceName: "image8") {
-            Image9.setImage(#imageLiteral(resourceName: "image4"), for: .normal)
-        }
-        
-        else
-        {
-            Image9.setImage(#imageLiteral(resourceName: "image2"), for: .normal)
-        }
-        
-    }
     
    
     
